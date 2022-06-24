@@ -23,5 +23,17 @@ body{
 }
 
 .navigation .userBx{
-    
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+}
+
+.navigation .userBx .imgBx{
+    position: relative;
+    min-width: 60px;
+    height: 60px;
+    background: #000;
+    border-radius: 50%;
+    border: 10px solid #fff;
 }
